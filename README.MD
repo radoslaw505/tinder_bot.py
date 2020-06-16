@@ -13,9 +13,10 @@ Running script:
 python3 -i tinder_bot.py
 ```
 
-Script will run interactive. He is creating a class `bot` and executing a `login` function.
+Script will run interactive. He is creating a class `bot` and executing a `login()` function.
 To run functions:
 ```
+bot.login()         # fb authentication, accepting localization popup, reject notifications
 bot.like()          # swipe right
 bot.dislike()       # swipe left
 bot.next_photo()    # show next photo
